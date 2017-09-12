@@ -1,10 +1,10 @@
 import { combineReducers, Reducer } from 'redux';
-import todos from './todos';
+import form from './form';
 
 export interface RootState {
-  todos: TodoStoreState;
+  form: FormState;
 }
 
 export default combineReducers<RootState>({
-  todos
+  form
 });

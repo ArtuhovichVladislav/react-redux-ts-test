@@ -1,0 +1,48 @@
+.Form {
+  display: flex;
+  margin: auto;
+  border: 1px solid #ccc;
+  padding: 50px;
+  width: 80%;
+}
+
+.Form__form {
+  width: 60%;
+  display: flex;
+}
+
+.Form__fields {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  text-align: left;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.Form__input {
+  width: 100% !important;
+}
+
+.Buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin: 0 2.5%;
+} 
+
+.Buttons__button {
+  margin: 10px 0;
+}
+
+.Buttons__button:last-child svg {
+  transform: rotate(180deg);
+}
+
+.Editor {
+  display: flex;
+  width: 40% !important;
+  border: 1px solid #ccc;
+}
